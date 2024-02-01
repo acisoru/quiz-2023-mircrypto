@@ -2389,14 +2389,15 @@ _Получим: A square matrix cipher_
 **Стоимость:** 30
 
 **Описание:** Расшифруйте один из самых распространенных алгоритмов ассиметричного шифрования имея пару открытого и закрытого ключей.
-
-```Public:MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAK4Ry0CWtmNaC+xk8trg29HFIn2H/EXW22LSCeGW29EYzs6KEDOsusMi4K4LvuL5XiodMniECjwrpS+llC21bBcCAwEAAQ==```
 ```
+Public:MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAK4Ry0CWtmNaC+xk8trg29HFIn2H/EXW22LSCeGW29EYzs6KEDOsusMi4K4LvuL5XiodMniECjwrpS+llC21bBcCAwEAAQ==
+
 Private:MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEArhHLQJa2Y1oL7GTy2uDb0cUifYf8RdbbYtIJ4Zbb0RjOzooQM6y6wyLgrgu+4vleKh0yeIQKPCulL6WULbVsFwIDAQABAkBeCkLye/nBJw62AbuqQDzB0WzWwLarzG3tr2ejNms/RO+WrmekGw5CxtjiAmadMBYR/tIEUi7FHYTA6nDRkiPBAiEA8a9RZDqyQpIgwUGhcZb6oj/0oEV7QQqGEn7bRh17GTECIQC4YTh7QBd5qutkjfR/4kCfeDrKqR63EKyLSJOwNXyHxwIgEJhNKmitXMzT2vE6uKX5R7LEhUzADdM/KX30aHgVv8ECIGf30lyVgGdH/OI/tb4i+6OwrR44DSzXRyRnMXhsQKNjAiEAwuLEOaf/9FMG60E7SwumH6PoQp4vPg/cML/p1X4cqD0=
-```
-```Text: Base 64 format```
 
-```BeWjM9Qd+a7tL8d8F2xY4Kt89QiKCe4qwNTvyjgo2/pCdXoyFlN6LF/HBNOjuXw7yzZ2GHblXZJS5tvfqugEJA==```
+Text: Base 64 format
+
+BeWjM9Qd+a7tL8d8F2xY4Kt89QiKCe4qwNTvyjgo2/pCdXoyFlN6LF/HBNOjuXw7yzZ2GHblXZJS5tvfqugEJA==
+```
 **Ответ:** Rosetta Stone
 
 **Решение:** RSA открытый/закрытый ключ есть -> делать тут нечего
@@ -2492,10 +2493,11 @@ Private:MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEArhHLQJa2Y1oL7GTy2uDb0cUi
 **Стоимость:** 130
 
 **Описание:** Служащие из центра правительственной связи Великобритании пригласили нас к себе выпить чай в парке и отправили письмо, где должна была быть подсказка, но вместо письма нам пришли две md5 хэш функции и [какой-то словарь](assets/ctf/3_1.txt). Помогите найти название этого места.
-
+```
 **394a844cc3d6d99eb45b4e71afde2c99**
 
 **02129bb861061d1a052c592e2dc6b383**
+```
 
 **Формат:** Слово_слово
 
@@ -2526,9 +2528,9 @@ Private:MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEArhHLQJa2Y1oL7GTy2uDb0cUi
 **Стоимость:** 200
 
 **Описание:** Друг написал [шифратор](assets/ctf/shifrator), и попросил меня написать дешифратор, что же делать..
-
+```
 1828716544 1761607680 1912602624 1660944384 1912602624 2030043136 1879048192 1946157056 1862270976 2063597568 1946157056 1744830464 1761607680 1929379840 1593835520 1761607680 1929379840 1593835520 1694498816 1627389952 1929379840 2030043136 209715200
-
+```
 **Формат:** mircrypto{}
 
 **Ответ:** mircrypto{this_is_easy}
