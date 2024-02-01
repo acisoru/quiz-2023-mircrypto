@@ -2390,14 +2390,13 @@ _Получим: A square matrix cipher_
 
 **Описание:** Расшифруйте один из самых распространенных алгоритмов ассиметричного шифрования имея пару открытого и закрытого ключей.
 
-Public:MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAK4Ry0CWtmNaC+xk8trg29HFIn2H/EXW22LSCeGW29EYzs6KEDOsusMi4K4LvuL5XiodMniECjwrpS+llC21bBcCAwEAAQ==
-
+```Public:MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAK4Ry0CWtmNaC+xk8trg29HFIn2H/EXW22LSCeGW29EYzs6KEDOsusMi4K4LvuL5XiodMniECjwrpS+llC21bBcCAwEAAQ==```
+```
 Private:MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEArhHLQJa2Y1oL7GTy2uDb0cUifYf8RdbbYtIJ4Zbb0RjOzooQM6y6wyLgrgu+4vleKh0yeIQKPCulL6WULbVsFwIDAQABAkBeCkLye/nBJw62AbuqQDzB0WzWwLarzG3tr2ejNms/RO+WrmekGw5CxtjiAmadMBYR/tIEUi7FHYTA6nDRkiPBAiEA8a9RZDqyQpIgwUGhcZb6oj/0oEV7QQqGEn7bRh17GTECIQC4YTh7QBd5qutkjfR/4kCfeDrKqR63EKyLSJOwNXyHxwIgEJhNKmitXMzT2vE6uKX5R7LEhUzADdM/KX30aHgVv8ECIGf30lyVgGdH/OI/tb4i+6OwrR44DSzXRyRnMXhsQKNjAiEAwuLEOaf/9FMG60E7SwumH6PoQp4vPg/cML/p1X4cqD0=
+```
+```Text: Base 64 format```
 
-Text: Base 64 format
-
-BeWjM9Qd+a7tL8d8F2xY4Kt89QiKCe4qwNTvyjgo2/pCdXoyFlN6LF/HBNOjuXw7yzZ2GHblXZJS5tvfqugEJA==
-
+```BeWjM9Qd+a7tL8d8F2xY4Kt89QiKCe4qwNTvyjgo2/pCdXoyFlN6LF/HBNOjuXw7yzZ2GHblXZJS5tvfqugEJA==```
 **Ответ:** Rosetta Stone
 
 **Решение:** RSA открытый/закрытый ключ есть -> делать тут нечего
@@ -2535,6 +2534,7 @@ BeWjM9Qd+a7tL8d8F2xY4Kt89QiKCe4qwNTvyjgo2/pCdXoyFlN6LF/HBNOjuXw7yzZ2GHblXZJS5tvf
 **Ответ:** mircrypto{this_is_easy}
 
 **Решение:** Дебагаем код с помощью любого дебагера, например ida, анализируем код и пишем дешифратор, что-то наподобие этого
+```
 
 #include &lt;iostream>
 
@@ -2557,7 +2557,7 @@ dword = (dword &lt;< 24) | (dword & 0x00FFFF00) | (dword >> 24);
 cout&lt;<char(dword);
 
 }}
-
+```
 
 ### **Самый-самый**
 
@@ -2565,13 +2565,14 @@ cout&lt;<char(dword);
 
 **Описание:** Наверное каждый в своей жизни пытался придумать свой шифр и скорее всего это было что-то из разряда шифра Цезаря, да? Так вот, мы с другом придумали такой, только усовершенствовали его чуть-чуть и вот что [получилось…](assets/ctf/cezar)
 
-plufv}txslymfsqy5gxzpi6mwz7|pr|r
+```plufv}txslymfsqy5gxzpi6mwz7|pr|r```
 
 **Формат:** mircrypto{}
 
 **Ответ:** mircrypto{thanks/arsib/for/this}
 
 **Решение:** Дебагаем код с помощью любого дебагера, например ida, анализируем код и пишем дешифратор, что-то наподобие этого
+```
 
 #include &lt;iostream>
 
@@ -2596,3 +2597,4 @@ for(int i = 0;i &lt; buff.length(); i++){
 cout&lt;<buff&lt;<endl;
 
  }
+```
